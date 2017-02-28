@@ -1,0 +1,29 @@
+patientplatypus@next ~ $ homework
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk $ ls
+kitchen
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk $ cd ./kitchen
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mkdir ./fridge/crisper-drawer
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm -r ./fridge/crisper-drawer
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mv -r ./pantry/crisper-drawer ./fridge/crisper-drawer
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mv - ./pantry/crisper-drawer ./fridge/crisper-drawer
+mv: target './fridge/crisper-drawer' is not a directory
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mkdir ./fridge/crisper-drawer
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mv ./pantry/crisper-drawer/lettuce.txt ./fridge/crisper-drawer/lettuce.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm -r ./pantry/crisper-drawer
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm ./cans
+rm: cannot remove './cans': No such file or directory
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm ./cans.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mv ./fridge/trashcan ./trashcan
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mv ./trashcan/sink ./sink
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm ./sink/deleteme.txt
+rm: cannot remove './sink/deleteme.txt': No such file or directory
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm ./sink/delete-me.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mkdir ./sink/drying-rack/
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ mv ./sink/clean-dishes.txt ./sink/drying-rack/clean-dishes.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm ./fridge/freezer/couch.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ rm ./fridge/diapers.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ touch ./fridge/crisper-drawer/apples.txt
+patientplatypus@next ~/Desktop/WDIcode/wdi/wdi-atx-10/hmwk/kitchen $ 
+
